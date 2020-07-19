@@ -1,0 +1,33 @@
+.active {                                       /* This is the name of the class */
+    background-color:rgb(144, 243, 247);     /* This is just saying if something is part of the "active" class that it will have a background color of beige */
+}
+
+button {
+    background-color: #4c7faf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+ }
+
+ button:hover {
+    background-color:orange;  
+    outline: blue auto 5px; 
+    
+ }
+
+ 
+
+li {
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+li:hover {
+    color: orange;
+}
